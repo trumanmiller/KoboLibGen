@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.2"
+  },
+  "name": "kobolibgen",
+  "version": "0.0.1",
+  "description": "A lightweight libgen wrapper to automate the download and conversion of epubs",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "test": "echo \"test command not implimented\"",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trumanmiller/KoboLibGen.git"
+  },
+  "keywords": [
+    "libgen",
+    "kobo",
+    "kepub",
+    "kepubify"
+  ],
+  "author": "trumanmiller",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/trumanmiller/KoboLibGen/issues"
+  },
+  "homepage": "https://github.com/trumanmiller/KoboLibGen#readme"
+}
