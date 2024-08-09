@@ -1,8 +1,8 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
 
-router.get('/', async (req, res, next) => {
-    const search = req.query.s;
+router.get("/", async (req, res, next) => {
+  const search = req.query.s;
 
 
 });

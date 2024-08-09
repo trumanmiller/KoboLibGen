@@ -8,7 +8,8 @@
   "description": "A lightweight libgen wrapper to automate the download and conversion of epubs",
   "main": "index.js",
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "prettier": "3.3.3"
   },
   "scripts": {
     "test": "echo \"test command not implimented\"",

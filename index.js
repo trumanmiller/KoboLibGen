@@ -3,11 +3,11 @@ const path = require("path");
 
 const PORT = 3000;
 
-const downloadFlow = require('/flows/download')
-const searchFlow = require('/flows/search')
+const downloadFlow = require("/flows/download");
+const searchFlow = require("/flows/search");
 
-app.use("/download", downloadFlow)
-app.use("/search", searchFlow)
+app.use("/download", downloadFlow);
+app.use("/search", searchFlow);
 
 app.get("/", (req, res, err) => {
   res.sendFile(path.join(__dirname, "views", "index.html"));
