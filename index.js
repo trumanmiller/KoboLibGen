@@ -3,8 +3,8 @@ const path = require("path");
 
 const PORT = 3000;
 
-const downloadFlow = require("/flows/download");
-const searchFlow = require("/flows/search");
+const downloadFlow = require("./flows/download/index");
+const searchFlow = require("./flows/search/index");
 
 app.use("/download", downloadFlow);
 app.use("/search", searchFlow);
